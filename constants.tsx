@@ -3,12 +3,12 @@ import React from 'react';
 import { CubeColor } from './types';
 
 export const COLOR_MAP: Record<CubeColor, string> = {
-  [CubeColor.WHITE]: 'bg-slate-50 text-slate-900',
-  [CubeColor.YELLOW]: 'bg-yellow-400 text-slate-900',
-  [CubeColor.RED]: 'bg-red-600 text-white',
-  [CubeColor.ORANGE]: 'bg-orange-500 text-white',
-  [CubeColor.BLUE]: 'bg-blue-600 text-white',
-  [CubeColor.GREEN]: 'bg-emerald-500 text-white',
+  [CubeColor.WHITE]: 'bg-[#FFFFFF] text-slate-900',
+  [CubeColor.YELLOW]: 'bg-[#FFD500] text-slate-900',
+  [CubeColor.RED]: 'bg-[#B71234] text-white',
+  [CubeColor.ORANGE]: 'bg-[#FF5800] text-white',
+  [CubeColor.BLUE]: 'bg-[#0046AD] text-white',
+  [CubeColor.GREEN]: 'bg-[#009B48] text-white',
 };
 
 export const COLOR_DISPLAY_NAMES: Record<CubeColor, string> = {
