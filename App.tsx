@@ -9,7 +9,9 @@ type QuizStep = 'left' | 'right' | 'done';
 
 const App: React.FC = () => {
   const [enabledColors, setEnabledColors] = useState<CubeColor[]>(Object.values(CubeColor));
-  const [fixedTop, setFixedTop] = useState<CubeColor | null>(null);
+    // Default fixed top is now Yellow
+  const [fixedTop, setFixedTop] = useState<CubeColor | null>(CubeColor.YELLOW);
+
   const [currentQuiz, setCurrentQuiz] = useState<QuizState | null>(null);
   const [stats, setStats] = useState<Statistics>({ total: 0, correct: 0, streak: 0 });
   
