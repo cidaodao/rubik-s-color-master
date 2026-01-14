@@ -151,7 +151,7 @@ const App: React.FC = () => {
                     <div className="w-full space-y-8 animate-in slide-in-from-bottom-4 fade-in duration-500">
                       <div className="text-center">
                         <h3 className="text-3xl font-black text-white inline-flex items-center gap-4">
-                          <span className="bg-blue-600 text-white w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-900/40">1</span>
+                          {/* <span className="bg-blue-600 text-white w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-900/40">1</span> */}
                           左边是什么颜色？
                         </h3>
                       </div>
@@ -169,7 +169,7 @@ const App: React.FC = () => {
                     <div className="w-full space-y-8 animate-in slide-in-from-right-8 fade-in duration-500">
                       <div className="text-center">
                         <h3 className="text-3xl font-black text-white inline-flex items-center gap-4">
-                          <span className="bg-emerald-600 text-white w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-900/40">2</span>
+                          {/* <span className="bg-emerald-600 text-white w-10 h-10 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-900/40">2</span> */}
                           右边是什么颜色？
                         </h3>
                       </div>
