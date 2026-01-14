@@ -1,0 +1,5 @@
+{
+  "name": "Rubik's Color Master",
+  "description": "A high-performance training tool for Rubik's cube enthusiasts to memorize the color scheme through randomized face-orientation quizzes.",
+  "requestFramePermissions": []
+}
